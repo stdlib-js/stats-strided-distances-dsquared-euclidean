@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-27)
+## Unreleased (2026-01-28)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`640d00d`](https://github.com/stdlib-js/stdlib/commit/640d00d5567707d2dcef81f1e6fafbdb947b6eab) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`0538a41`](https://github.com/stdlib-js/stdlib/commit/0538a41cc4147040c041d86068fce07ecfdca36d) - **feat:** add `stats/strided/distances/dsquared-euclidean` [(#9680)](https://github.com/stdlib-js/stdlib/pull/9680) _(by Nakul Krishnakumar, Athan Reines)_
 
 </details>
@@ -34,10 +35,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Nakul Krishnakumar
+-   Philipp Burckhardt
 
 </section>
 

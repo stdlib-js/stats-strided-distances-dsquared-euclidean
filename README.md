@@ -426,7 +426,7 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
-[wikipedia-squared-euclidean-distance]: https://en.wikipedia.org/wiki/squared_#squared_squared_
+[wikipedia-squared-euclidean-distance]: https://en.wikipedia.org/wiki/Euclidean_distance#Squared_Euclidean_distance
 
 <!-- <related-links> -->
 
