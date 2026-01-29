@@ -62,6 +62,11 @@ where `x_i` and `y_i` are the _ith_ components of vectors **X** and **Y**, respe
 To use in Observable,
 
 ```javascript
+dsquaredEuclidean = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-distances-dsquared-euclidean@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-distances-dsquared-euclidean/tags). For example,
+
+```javascript
 dsquaredEuclidean = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-distances-dsquared-euclidean@v0.1.0-umd/browser.js' )
 ```
 
@@ -74,7 +79,7 @@ var dsquaredEuclidean = require( 'path/to/vendor/umd/stats-strided-distances-dsq
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-distances-dsquared-euclidean@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-distances-dsquared-euclidean@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -196,7 +201,7 @@ var z = dsquaredEuclidean.ndarray( 3, x, 2, 1, y, -1, y.length-1 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-distances-dsquared-euclidean@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-distances-dsquared-euclidean@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
