@@ -60,7 +60,7 @@ where `x_i` and `y_i` are the _ith_ components of vectors **X** and **Y**, respe
 ## Usage
 
 ```javascript
-import dsquaredEuclidean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-distances-dsquared-euclidean@esm/index.mjs';
+import dsquaredEuclidean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-distances-dsquared-euclidean@v0.1.0-esm/index.mjs';
 ```
 
 #### dsquaredEuclidean( N, x, strideX, y, strideY )
@@ -174,7 +174,7 @@ var z = dsquaredEuclidean.ndarray( 3, x, 2, 1, y, -1, y.length-1 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import dsquaredEuclidean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-distances-dsquared-euclidean@esm/index.mjs';
+import dsquaredEuclidean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-distances-dsquared-euclidean@v0.1.0-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
