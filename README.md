@@ -60,6 +60,11 @@ where `x_i` and `y_i` are the _ith_ components of vectors **X** and **Y**, respe
 ## Usage
 
 ```javascript
+import dsquaredEuclidean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-distances-dsquared-euclidean@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-distances-dsquared-euclidean/tags). For example,
+
+```javascript
 import dsquaredEuclidean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-distances-dsquared-euclidean@v0.1.1-deno/mod.js';
 ```
 
@@ -169,7 +174,7 @@ var z = dsquaredEuclidean.ndarray( 3, x, 2, 1, y, -1, y.length-1 );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import dsquaredEuclidean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-distances-dsquared-euclidean@v0.1.1-deno/mod.js';
+import dsquaredEuclidean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-distances-dsquared-euclidean@deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
